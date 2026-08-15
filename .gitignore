@@ -1,0 +1,11 @@
+# Python 缓存 / 构建产物
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# 本地环境 / 编辑器
+.venv/
+.env
+.vscode/
+*.swp

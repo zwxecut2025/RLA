@@ -1,0 +1,76 @@
+{
+  "patient_id": "张明远",
+  "sex": "male",
+  "age_at_onset": 52,
+  "onset_site": "bulbar",
+  "diagnosis_date": "2025-06-01",
+  "symptom_onset_date": "2024-10-01",
+  "alsfrsr_records": [
+    {
+      "date": "2026-05-15",
+      "total_score": 10
+    }
+  ],
+  "respiratory": {
+    "fvc_percent_predicted": 47,
+    "niv_usage_hours_per_day": null
+  },
+  "genetic_variants": [
+    {
+      "gene": "SOD1",
+      "variant_type": "unknown",
+      "acmg_classification": "B",
+      "zygosity": "homozygous"
+    },
+    {
+      "gene": "C9orf72",
+      "variant_type": "unknown",
+      "acmg_classification": "B",
+      "zygosity": "homozygous"
+    },
+    {
+      "gene": "TARDBP",
+      "variant_type": "unknown",
+      "acmg_classification": "B",
+      "zygosity": "homozygous"
+    },
+    {
+      "gene": "FUS",
+      "variant_type": "unknown",
+      "acmg_classification": "B",
+      "zygosity": "homozygous"
+    },
+    {
+      "gene": "VCP",
+      "variant_type": "unknown",
+      "acmg_classification": "B",
+      "zygosity": "homozygous"
+    },
+    {
+      "gene": "PFN1",
+      "variant_type": "unknown",
+      "acmg_classification": "B",
+      "zygosity": "homozygous"
+    }
+  ],
+  "medications": [
+    {
+      "drug_name": "Riluzole",
+      "dosage": null,
+      "start_date": "2025-06-01"
+    },
+    {
+      "drug_name": "Edaravone",
+      "dosage": null,
+      "start_date": "2026-05-01"
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_type": "diagnosis",
+      "date": "2025-06-01"
+    }
+  ],
+  "family_history_als": false,
+  "clinical_notes": "张明远，52岁男性，球部起病ALS，首发症状为言语不清伴右手虎口萎缩（2024年10月），2025年6月确诊Definite ALS。ALSFRS-R总分10/48（重度功能障碍），近18个月从发病至今快速进展（ΔFS约1.1分/月）。FVC从85%下降至47%，已启动NIV。基因检测：SOD1/C9orf72/TARDBP/FUS/VCP/PFN1均为野生型，支持散发性ALS（sALS）。合并症：高血压、2型糖尿病。治疗：利鲁唑（2025.06起）+依达拉奉（2026.05起），已行PEG，使用眼控沟通系统。预后因素：高龄、球部起病、快速进展、低FVC均提示不良预后。"
+}

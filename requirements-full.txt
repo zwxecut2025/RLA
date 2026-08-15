@@ -1,0 +1,13 @@
+# C9Agent full dependencies (core + API server + document extraction)
+# Install with: pip install -r requirements-full.txt
+
+-r requirements.txt
+
+fastapi>=0.100
+uvicorn>=0.23
+python-docx>=0.8
+openpyxl>=3.0
+
+# Optional future capabilities (uncomment if needed)
+# chromadb>=0.4
+# scikit-survival>=0.22

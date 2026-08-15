@@ -1,0 +1,196 @@
+{
+  "updated": "2026-08-15T23:35:20.454052",
+  "total_documents": 8,
+  "total_keywords": 108,
+  "documents": {
+    "model_methodology": {
+      "title": "Cox比例风险模型预测方法",
+      "topics": [
+        "预测模型",
+        "CoxPH",
+        "生存分析",
+        "方法论",
+        "模型原理"
+      ],
+      "keywords": [
+        "Cox比例风险",
+        "生存预测",
+        "风险评分",
+        "危险比",
+        "基线生存",
+        "ENCALS",
+        "系数"
+      ],
+      "file": "01_model_methodology.md"
+    },
+    "prognostic_factors": {
+      "title": "ALS预后因素详解",
+      "topics": [
+        "预后因子",
+        "生存预测",
+        "风险因素",
+        "prognosis",
+        "临床特征"
+      ],
+      "keywords": [
+        "ALSFRS-R斜率",
+        "球部起病",
+        "FVC",
+        "诊断延迟",
+        "C9orf72",
+        "SOD1",
+        "年龄",
+        "性别",
+        "生存期",
+        "进展速度"
+      ],
+      "file": "02_prognostic_factors.md"
+    },
+    "als_genes": {
+      "title": "ALS相关基因知识",
+      "topics": [
+        "基因",
+        "遗传",
+        "fALS",
+        "sALS",
+        "C9orf72",
+        "SOD1",
+        "TARDBP",
+        "FUS",
+        "突变"
+      ],
+      "keywords": [
+        "C9orf72",
+        "SOD1",
+        "TARDBP",
+        "FUS",
+        "TBK1",
+        "家族性ALS",
+        "散发性ALS",
+        "基因检测",
+        "遗传咨询",
+        "致病性",
+        "野生型"
+      ],
+      "file": "03_als_genes.md"
+    },
+    "staging_systems": {
+      "title": "ALS临床分期体系",
+      "topics": [
+        "临床分期",
+        "King's",
+        "MITOS",
+        "疾病进展",
+        "功能评估"
+      ],
+      "keywords": [
+        "King's staging",
+        "MITOS",
+        "临床分期",
+        "功能域",
+        "受累区域",
+        "胃造瘘",
+        "无创通气",
+        "PEG",
+        "NIV"
+      ],
+      "file": "04_staging_systems.md"
+    },
+    "drugs_and_treatments": {
+      "title": "ALS药物与治疗",
+      "topics": [
+        "药物",
+        "治疗",
+        "利鲁唑",
+        "依达拉奉",
+        "Riluzole",
+        "Edaravone",
+        "对症治疗",
+        "支持治疗"
+      ],
+      "keywords": [
+        "利鲁唑",
+        "依达拉奉",
+        "托弗森",
+        "Tofersen",
+        "无创通气",
+        "NIV",
+        "胃造瘘",
+        "PEG",
+        "多学科",
+        "对症治疗",
+        "谷氨酸",
+        "自由基"
+      ],
+      "file": "05_drugs_and_treatments.md"
+    },
+    "clinical_guidelines": {
+      "title": "ALS临床管理指南要点",
+      "topics": [
+        "临床指南",
+        "EFNS",
+        "管理",
+        "诊断标准",
+        "NIV",
+        "PEG",
+        "随访",
+        "多学科"
+      ],
+      "keywords": [
+        "EFNS指南",
+        "El Escorial",
+        "诊断标准",
+        "管理指南",
+        "呼吸管理",
+        "营养管理",
+        "随访计划",
+        "临终关怀"
+      ],
+      "file": "06_clinical_guidelines.md"
+    },
+    "feature_contribution": {
+      "title": "特征贡献解读",
+      "topics": [
+        "特征贡献",
+        "模型解释",
+        "预测依据",
+        "SHAP",
+        "风险分解"
+      ],
+      "keywords": [
+        "特征贡献",
+        "贡献值",
+        "风险分解",
+        "预测解释",
+        "模型解释性",
+        "正向贡献",
+        "负向贡献"
+      ],
+      "file": "07_feature_contribution.md"
+    },
+    "literature_summary": {
+      "title": "核心参考文献摘要",
+      "topics": [
+        "文献",
+        "参考文献",
+        "研究",
+        "临床试验",
+        "evidence"
+      ],
+      "keywords": [
+        "Westeneng",
+        "ENCALS",
+        "Su",
+        "荟萃分析",
+        "Kimura",
+        "Elamin",
+        "Bali",
+        "SOD1",
+        "预后指数",
+        "自然史",
+        "生存预测"
+      ],
+      "file": "08_literature_summary.md"
+    }
+  }
+}
