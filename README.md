@@ -26,6 +26,32 @@ pip install -r requirements-full.txt
 pip install -e ".[dev]"
 ```
 
+## 环境要求
+
+- Python >= 3.10
+- 本地 Ollama 服务（见下文，**必需**）
+
+## Ollama 配置（必需）
+
+本项目的表型提取、文献检索、报告生成等核心步骤都依赖本地 LLM。
+默认使用 Ollama，监听 `http://localhost:11434`，模型 `deepseek-v2:16b`。
+**未启动 Ollama 或未拉取模型时，所有分析命令都会连接失败。**
+
+1. 安装 Ollama：https://ollama.com ，并启动服务（默认监听 11434 端口）。
+2. 拉取默认模型：
+
+   ```bash
+   ollama pull deepseek-v2:16b
+   ```
+
+3. 确认服务在运行（未运行则启动）：
+
+   ```bash
+   ollama serve
+   ```
+
+4. （可选）如需更换模型（如 `qwen3:32b`），修改 `c9agent/config.py` 中的 `LLM_CONFIG`。
+
 ## 快速开始
 
 ### 1. 单患者分析（合成数据测试）
