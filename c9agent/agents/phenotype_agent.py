@@ -143,7 +143,7 @@ class PhenotypeAgent(BaseAgent):
             sex=Sex.MALE,
             age_at_onset=55,
             onset_site=onset,
-            diagnosis_date=records[0].date if records else date.today(),
+            diagnosis_date=records[0].date if records else dt_date.today(),
             alsfrsr_records=records,
         )
 
