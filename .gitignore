@@ -9,3 +9,39 @@ __pycache__/
 .env
 .vscode/
 *.swp
+
+# —— 项目无关的临时 / 生成产物（垃圾文件）——
+# 压缩包 / 归档
+*.zip
+*.tar
+
+# 文档 / 表格 / Office 临时锁文件
+*.pdf
+*.xlsx
+*.docx
+~$*
+
+# 根目录下的生成报告 / 临时输入
+report.json
+report.md
+patient.json
+patient_report.json
+patient_report.md
+cohort_report.json
+abc.py
+
+# 根目录下无关的临时目录（课程/作业/解压产物）
+20251123_c_code/
+20251128/
+202607/
+package_20251109/
+python*PPT/
+python_homework/
+report_20/
+sum_01/
+
+# 生成的患者数据与报告（data/）
+data/sample_*
+data/test*
+data/ALS_patient_report.*
+data/synthetic/
